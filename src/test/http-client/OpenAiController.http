@@ -1,2 +1,6 @@
 ###
 GET http://localhost:8080/open-ai/generate
+
+###
+GET http://localhost:8080/open-ai/generate/content-only
+Accept: text/event-stream
