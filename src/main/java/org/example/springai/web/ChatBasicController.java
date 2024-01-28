@@ -3,7 +3,6 @@ package org.example.springai.web;
 import org.springframework.ai.chat.ChatClient;
 import org.springframework.ai.chat.ChatResponse;
 import org.springframework.ai.chat.StreamingChatClient;
-import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,13 +13,13 @@ import reactor.core.publisher.Flux;
 import java.util.Map;
 
 @RestController
-public class ChatController {
+public class ChatBasicController {
 
     private final ChatClient chatClient;
     private final StreamingChatClient streamingChatClient;
 
     @Autowired
-    public ChatController(ChatClient chatClient, StreamingChatClient streamingChatClient) {
+    public ChatBasicController(ChatClient chatClient, StreamingChatClient streamingChatClient) {
         this.chatClient = chatClient;
         this.streamingChatClient = streamingChatClient;
     }
