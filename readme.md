@@ -20,3 +20,5 @@
 
 **레퍼런스**
 - https://youtu.be/zNIiLkRn96Q
+- https://docs.spring.io/spring-ai/reference/concepts.html
+- https://github.com/spring-projects/spring-ai
