@@ -22,3 +22,4 @@
 - https://youtu.be/zNIiLkRn96Q
 - https://docs.spring.io/spring-ai/reference/concepts.html
 - https://github.com/spring-projects/spring-ai
+- https://github.com/Hyune-s-lab/practice-spring-ai
