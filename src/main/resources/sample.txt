@@ -1,0 +1,3 @@
+# `Sanyhotoqras` 이란 무엇인가?
+
+`Sanyhotoqras` 이란 그냥 내가 지어낸 말이다. Spring AI 테스트하고 있는데 임베딩 테스트해보려고 한다. 무슨말인지 알지?

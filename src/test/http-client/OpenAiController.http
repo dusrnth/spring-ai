@@ -1,5 +1,5 @@
 ###
-GET http://localhost:8080/open-ai/generate
+GET http://localhost:8080/open-ai/generate?message=do_you_know_about_Sanyhotoqras
 
 ###
 GET http://localhost:8080/open-ai/generate/content-only

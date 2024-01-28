@@ -14,7 +14,7 @@ import org.springframework.core.io.Resource;
 @Configuration
 public class AiConfig {
 
-    @Value("classpath:/bb-rules.txt")
+    @Value("classpath:/sample.txt")
     private Resource bbRules;
 
     @Bean
